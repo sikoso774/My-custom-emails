@@ -1,135 +1,26 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<style>
-    /* --- CONFIGURATION GÉNÉRALE --- */
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    
-    /* Conteneur principal */
-    .signature-table {
-        font-family: 'Segoe UI', Arial, sans-serif; /* Police moderne */
-        color: #333333;
-        width: 500px;
-        border-collapse: collapse;
-    }
-
-    /* --- PHOTO DE PROFIL --- */
-    .col-photo {
-        width: 140px;
-        vertical-align: top;
-        padding: 20px 20px 20px 0;
-    }
-    .photo-img {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;       /* Rend l'image ronde */
-        border: 4px solid #295921; /* Bordure Vert Foncé */
-        object-fit: cover;
-        display: block;
-    }
-
-    /* --- INFORMATIONS TEXTE --- */
-    .col-info {
-        vertical-align: top;
-        padding: 20px 0;
-    }
-    .name-title {
-        margin: 0;
-        font-size: 20px;
-        font-weight: bold;
-        color: #333333;
-    }
-    .job-title {
-        margin: 4px 0 15px 0;
-        font-size: 14px;
-        color: #295921; /* Vert Pro */
-        font-weight: 600;
-    }
-    .student-tag {
-        color: #666666;
-        font-weight: normal;
-    }
-
-    /* --- CONTACT & ICÔNES --- */
-    .contact-row td {
-        padding-bottom: 8px;
-        font-size: 13px;
-    }
-    .icon-small {
-        width: 14px;
-        height: 14px;
-        vertical-align: middle;
-        margin-right: 8px;
-    }
-    .contact-link {
-        color: #4A4A4A;
-        text-decoration: none;
-    }
-    .social-icon {
-        width: 22px;
-        height: 22px;
-        border: 0;
-        display: block;
-    }
-
-    /* --- SECTION PROJETS (BAS) --- */
-    .projects-box {
-        background-color: #f9f9f9;
-        padding: 15px;
-        border-left: 4px solid #295921;
-        border-radius: 0 4px 4px 0;
-        margin-top: 10px;
-    }
-    .projects-title {
-        margin: 0;
-        font-size: 11px;
-        font-weight: bold;
-        color: #295921;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    .projects-link {
-        color: #D32F2F; /* Rouge Accent */
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 14px;
-    }
-    .projects-link:hover {
-        text-decoration: underline;
-    }
-</style>
-</head>
-<body>
-
-<table class="signature-table" cellpadding="0" cellspacing="0">
+<table cellpadding="0" cellspacing="0" border="0" style="font-family: 'Segoe UI', Arial, sans-serif; color: #333333; width: 500px; border-collapse: collapse; margin: 0; padding: 0;">
     <tr>
-        <td class="col-photo">
-            <img class="photo-img" 
-                 src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/personal/Me.png?raw=true" 
-                 alt="Zoléni Kokolo Zassi">
+        <td style="width: 140px; vertical-align: top; padding: 20px 20px 20px 0;">
+            <img src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/personal/Sikoso_774.png?raw=true" alt="Zoléni Kokolo Zassi" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid #295921; background-color: #666666; object-fit: cover; display: block;">
         </td>
 
-        <td class="col-info">
-            <div class="name-title">Zoléni Kokolo Zassi</div>
-            <div class="job-title">
-                Développeur Python & DevOps en devenir | <span class="student-tag">Étudiant</span>
+        <td style="vertical-align: top; padding: 20px 0;">
+            <div style="margin: 0; font-size: 20px; font-weight: bold; color: #333333;">Zoléni Kokolo Zassi</div>
+            <div style="margin: 4px 0 15px 0; font-size: 14px; color: #295921; font-weight: 600;">
+                Développeur Python & DevOps en devenir | <span style="color: #666666; font-weight: normal;">Étudiant</span>
             </div>
 
             <table cellpadding="0" cellspacing="0" border="0">
-                <tr class="contact-row">
-                    <td>
-                        <img class="icon-small" src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/email.png?raw=true" alt="email">
-                        <a href="mailto:zolenikokolozassi@gmail.com" class="contact-link">zolenikokolozassi@gmail.com</a>
+                <tr>
+                    <td style="padding-bottom: 8px; font-size: 13px;">
+                        <img src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/email.png?raw=true" alt="email" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 8px;">
+                        <a href="mailto:zolenikokolozassi@gmail.com" style="color: #4A4A4A; text-decoration: none;">zolenikokolozassi@gmail.com</a>
                     </td>
                 </tr>
-                <tr class="contact-row">
-                    <td>
-                        <img class="icon-small" src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/phone-call.png?raw=true" alt="tel">
-                        <span class="contact-link">+33 (0)7 85 62 76 40</span>
+                <tr>
+                    <td style="padding-bottom: 8px; font-size: 13px;">
+                        <img src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/phone-call.png?raw=true" alt="tel" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 8px;">
+                        <span style="color: #4A4A4A;">+33 (0)7 85 62 76 40</span>
                     </td>
                 </tr>
             </table>
@@ -138,12 +29,17 @@
                 <tr>
                     <td style="padding-right: 10px;">
                         <a href="https://www.linkedin.com/in/zoléni-kokolo-zassi-280a282ba" target="_blank">
-                            <img class="social-icon" src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/linkedin-logo.png?raw=true" alt="LinkedIn">
+                            <img src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/linkedin-logo.png?raw=true" alt="LinkedIn" style="width: 22px; height: 22px; border: 0; display: block;">
+                        </a>
+                    </td>
+                    <td style="padding-right: 10px;">
+                        <a href="https://github.com/Sikoso774" target="_blank">
+                            <img src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/github.png?raw=true" alt="GitHub" style="width: 22px; height: 22px; border: 0; display: block;">
                         </a>
                     </td>
                     <td>
-                        <a href="https://github.com/Sikoso774" target="_blank">
-                            <img class="social-icon" src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/github.png?raw=true" alt="GitHub">
+                        <a href="VOTRE_LIEN_SITE_WEB_ICI" target="_blank">
+                            <img src="https://github.com/Sikoso774/My-custom-emails/blob/main/images/icons/png/globe.png?raw=true" alt="Site Web" style="width: 22px; height: 22px; border: 0; display: block;">
                         </a>
                     </td>
                 </tr>
@@ -152,17 +48,19 @@
     </tr>
 
     <tr>
-        <td colspan="2">
-            <div class="projects-box">
-                <p class="projects-title">Projets Clés</p>
-                <p style="margin: 5px 0 0 0;">
-                    <a href="https://github.com/Sikoso774" class="projects-link">
-                        🚀 Découvrir mes derniers projets sur GitHub →
-                    </a>
-                </p>
-            </div>
+        <td colspan="2" style="padding-top: 10px;">
+            <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; background-color: #f9f9f9; border-left: 4px solid #295921; border-radius: 0 4px 4px 0;">
+                <tr>
+                    <td style="padding: 15px;">
+                        <p style="margin: 0; font-size: 11px; font-weight: bold; color: #295921; text-transform: uppercase; letter-spacing: 1px;">Projets Clés</p>
+                        <p style="margin: 5px 0 0 0;">
+                            <a href="https://github.com/Sikoso774" style="color: #D32F2F; text-decoration: none; font-weight: bold; font-size: 14px;">
+                                🚀 Découvrir mes derniers projets sur GitHub →
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
 </table>
-</body>
-</html>
